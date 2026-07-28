@@ -1,328 +1,184 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Profil Anggota Keluarga</title>
-
-<style>
-
-body{
-    margin:0;
-    font-family:Arial, Helvetica, sans-serif;
-
-    background-image:url("https://akhlisisa70-bit.github.io/google-sites-template/background/bground.png");
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-attachment:fixed;
-
-    /* sementara memakai warna hijau,
-       nanti diganti gambar background floral 
-    background:linear-gradient(135deg,#dff5d8,#f6fff2);*/
-    
-
-}
-
-/*==============================*/
-
-.container{
-
-    width:900px;
-    max-width:95%;
-    margin:30px auto;
-
-    background:white;
-
-    border-radius:15px;
-
-    overflow:hidden;
-
-    box-shadow:0px 0px 15px rgba(0,0,0,.2);
-
-}
-
-/*==============================*/
-
-.header{
-
-    background:#4CAF50;
-
-    color:white;
-
-    text-align:center;
-
-    padding:20px;
-
-}
-
-.header h1{
-
-    margin:0;
-
-}
-
-/*==============================*/
-
-.profil{
-
-    display:flex;
-
-    justify-content:space-around;
-
-    padding:25px;
-
-    flex-wrap:wrap;
-
-}
-
-/*==============================*/
-
-.foto{
-
-    width:220px;
-
-    text-align:center;
-
-}
-
-.foto img{
-
-    width:180px;
-
-    height:220px;
-
-    object-fit:cover;
-
-    border-radius:10px;
-
-    border:5px solid #4CAF50;
-
-}
-
-/*==============================*/
-
-.data{
-
-    width:100%;
-
-    padding:25px;
-
-}
-
-table{
-
-    width:100%;
-
-    border-collapse:collapse;
-
-}
-
-td{
-
-    padding:8px;
-
-    border-bottom:1px solid #dddddd;
-
-}
-
-/*==============================*/
-
-.judul{
-
-    background:#E8F5E9;
-
-    padding:10px;
-
-    color:#2E7D32;
-
-    font-weight:bold;
-
-    margin-top:20px;
-
-}
-
-/*==============================*/
-
-.isi{
-
-    padding:15px;
-
-    line-height:1.6;
-
-}
-
-/*==============================*/
-
-.button{
-
-display:inline-block;
-
-padding:10px 20px;
-
-background:#4CAF50;
-
-color:white;
-
-text-decoration:none;
-
-border-radius:8px;
-
-margin-top:10px;
-
-}
-
-.button:hover{
-
-background:#2E7D32;
-
-}
-
-/*==============================*/
-
-.footer{
-
-background:#4CAF50;
-
-color:white;
-
-text-align:center;
-
-padding:15px;
-
-margin-top:20px;
-
-}
-
-/*==============================*/
-
-@media(max-width:700px){
-
-.profil{
-
-flex-direction:column;
-
-align-items:center;
-
-}
-
-}
-
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Anggota Keluarga</title>
+
+    <!-- File CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <div class="container">
 
-<div class="header">
+    <!-- HEADER -->
+    <header class="header">
+        <h1>🌳 SILSILAH KELUARGA BESAR</h1>
+        <p>Profil Anggota Keluarga</p>
+    </header>
 
-<h1>🌳 SILSILAH KELUARGA BESAR</h1>
+    <!-- FOTO -->
+    <section class="photo-area">
 
-<p>Profil Anggota Keluarga</p>
+        <div class="photo-card">
+            <img src="images/person1.jpg" alt="Foto Anggota">
+            <h3>Ahmad Akhlis</h3>
+            <p>Anggota Keluarga</p>
+        </div>
 
-</div>
+        <div class="love">❤</div>
 
-<div class="profil">
+        <div class="photo-card">
+            <img src="images/person2.jpg" alt="Foto Pasangan">
+            <h3>Siti Aminah</h3>
+            <p>Pasangan</p>
+        </div>
 
-<div class="foto">
+    </section>
 
-<img src="images/person1.jpg">
+    <!-- BIODATA -->
+    <section class="card">
 
-<h3>Nama Anggota</h3>
+        <h2>📋 Biodata</h2>
 
-</div>
+        <table>
 
-<div class="foto">
+            <tr>
+                <td>Nama Lengkap</td>
+                <td>Ahmad Akhlis</td>
+            </tr>
 
-<img src="images/person2.jpg">
+            <tr>
+                <td>Nama Panggilan</td>
+                <td>Ahmad</td>
+            </tr>
 
-<h3>Nama Pasangan</h3>
+            <tr>
+                <td>Tempat Lahir</td>
+                <td>Semarang</td>
+            </tr>
 
-</div>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td>10 Januari 1980</td>
+            </tr>
 
-</div>
+            <tr>
+                <td>Ayah</td>
+                <td>Hasan</td>
+            </tr>
 
-<div class="data">
+            <tr>
+                <td>Ibu</td>
+                <td>Fatimah</td>
+            </tr>
 
-<table>
+            <tr>
+                <td>Pekerjaan</td>
+                <td>Dosen</td>
+            </tr>
 
-<tr>
-<td width="180"><b>Nama Lengkap</b></td>
-<td>: Ahmad Akhlis</td>
-</tr>
+            <tr>
+                <td>Alamat</td>
+                <td>Semarang</td>
+            </tr>
 
-<tr>
-<td><b>Nama Panggilan</b></td>
-<td>: Ahmad</td>
-</tr>
+        </table>
 
-<tr>
-<td><b>Tempat/Tanggal Lahir</b></td>
-<td>: Semarang, 10 Januari 1980</td>
-</tr>
+    </section>
 
-<tr>
-<td><b>Ayah</b></td>
-<td>: Hasan</td>
-</tr>
+    <!-- BIOGRAFI -->
 
-<tr>
-<td><b>Ibu</b></td>
-<td>: Fatimah</td>
-</tr>
+    <section class="card">
 
-<tr>
-<td><b>Pasangan</b></td>
-<td>: Siti Aminah</td>
-</tr>
+        <h2>📖 Biografi</h2>
 
-<tr>
-<td><b>Pekerjaan</b></td>
-<td>: Guru</td>
-</tr>
+        <p>
 
-</table>
+            Tuliskan riwayat hidup anggota keluarga di sini.
 
-<div class="judul">📖 Biografi</div>
+            Ceritakan perjalanan hidup, pendidikan, pekerjaan,
+            pengalaman penting, dan informasi lain yang ingin
+            didokumentasikan.
 
-<div class="isi">
+        </p>
 
-Tuliskan riwayat hidup anggota keluarga di sini.
+    </section>
 
-</div>
+    <!-- PENDIDIKAN -->
 
-<div class="judul">👨‍👩‍👧 Anak-anak</div>
+    <section class="card">
 
-<div class="isi">
+        <h2>🎓 Pendidikan</h2>
 
-• Ali<br>
-• Aisyah<br>
-• Rina
+        <ul>
 
-</div>
+            <li>SD Negeri ...</li>
+            <li>SMP Negeri ...</li>
+            <li>SMA Negeri ...</li>
+            <li>Universitas ...</li>
 
-<div class="judul">📸 Album Foto</div>
+        </ul>
 
-<div class="isi">
+    </section>
 
-<a href="#" class="button">
+    <!-- PEKERJAAN -->
 
-Lihat Album Google Photos
+    <section class="card">
 
-</a>
+        <h2>💼 Pekerjaan</h2>
 
-</div>
+        <p>
 
-</div>
+            Dosen Program Studi Pendidikan Fisika
 
-<div class="footer">
+        </p>
 
-Website Silsilah Keluarga © 2026
+    </section>
 
-</div>
+    <!-- ANAK -->
+
+    <section class="card">
+
+        <h2>👨‍👩‍👧 Anak-anak</h2>
+
+        <div class="children">
+
+            <a href="ali.html">Ali</a>
+
+            <a href="rina.html">Rina</a>
+
+            <a href="budi.html">Budi</a>
+
+        </div>
+
+    </section>
+
+    <!-- GOOGLE PHOTOS -->
+
+    <section class="card">
+
+        <h2>📸 Album Foto</h2>
+
+        <a class="album-button"
+           href="https://photos.google.com"
+           target="_blank">
+
+            Buka Album Google Photos
+
+        </a>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        Website Silsilah Keluarga © 2026
+
+    </footer>
 
 </div>
 
