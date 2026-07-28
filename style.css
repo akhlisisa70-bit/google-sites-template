@@ -1,0 +1,342 @@
+/*====================================================
+FTGS - Family Tree Google Sites
+Version : 0.1
+====================================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/*====================================================*/
+
+body{
+
+    font-family:Segoe UI, Arial, sans-serif;
+
+    background-image:url("background/bg-family.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    padding:30px;
+
+}
+
+/*====================================================*/
+
+.container{
+
+    max-width:1000px;
+
+    margin:auto;
+
+    background:rgba(255,255,255,.92);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
+
+}
+
+/*====================================================*/
+
+.header{
+
+    background:#3f8f4f;
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+.header h1{
+
+    font-size:34px;
+
+    margin-bottom:8px;
+
+}
+
+.header p{
+
+    font-size:18px;
+
+}
+
+/*====================================================*/
+
+.photo-area{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:40px;
+
+    padding:35px;
+
+    flex-wrap:wrap;
+
+}
+
+/*====================================================*/
+
+.photo-card{
+
+    text-align:center;
+
+}
+
+.photo-card img{
+
+    width:190px;
+
+    height:240px;
+
+    object-fit:cover;
+
+    border-radius:12px;
+
+    border:6px solid white;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.25);
+
+}
+
+.photo-card h3{
+
+    margin-top:12px;
+
+    color:#2f6b38;
+
+}
+
+.photo-card p{
+
+    color:#666;
+
+}
+
+/*====================================================*/
+
+.love{
+
+    font-size:48px;
+
+    color:#d81b60;
+
+}
+
+/*====================================================*/
+
+.card{
+
+    margin:25px;
+
+    padding:25px;
+
+    background:white;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+
+}
+
+.card h2{
+
+    color:#2f6b38;
+
+    margin-bottom:20px;
+
+    border-bottom:2px solid #cfe8cf;
+
+    padding-bottom:10px;
+
+}
+
+/*====================================================*/
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+table td{
+
+    padding:10px;
+
+    border-bottom:1px solid #eeeeee;
+
+}
+
+table td:first-child{
+
+    width:220px;
+
+    font-weight:bold;
+
+    color:#2f6b38;
+
+}
+
+/*====================================================*/
+
+.card p{
+
+    line-height:1.8;
+
+    text-align:justify;
+
+}
+
+/*====================================================*/
+
+.card ul{
+
+    margin-left:25px;
+
+    line-height:2;
+
+}
+
+/*====================================================*/
+
+.children{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+}
+
+.children a{
+
+    text-decoration:none;
+
+    background:#4caf50;
+
+    color:white;
+
+    padding:10px 20px;
+
+    border-radius:25px;
+
+    transition:.3s;
+
+}
+
+.children a:hover{
+
+    background:#2e7d32;
+
+}
+
+/*====================================================*/
+
+.album-button{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    background:#ff9800;
+
+    color:white;
+
+    padding:14px 24px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.album-button:hover{
+
+    background:#ef6c00;
+
+}
+
+/*====================================================*/
+
+.footer{
+
+    text-align:center;
+
+    background:#3f8f4f;
+
+    color:white;
+
+    padding:18px;
+
+    margin-top:20px;
+
+}
+
+/*====================================================*/
+
+@media (max-width:768px){
+
+.photo-area{
+
+    flex-direction:column;
+
+}
+
+.love{
+
+    font-size:34px;
+
+}
+
+.photo-card img{
+
+    width:170px;
+
+    height:220px;
+
+}
+
+.card{
+
+    margin:15px;
+
+}
+
+table td{
+
+    display:block;
+
+    width:100%;
+
+}
+
+table td:first-child{
+
+    background:#f3faf3;
+
+}
+
+}
