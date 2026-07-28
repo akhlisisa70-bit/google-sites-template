@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Template Profil</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#eef2f5;
+    font-family:Arial,Helvetica,sans-serif;
+    color:#333;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:40px;
+}
+
+.row{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.profile{
+    text-align:center;
+}
+
+.profile img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid white;
+    box-shadow:0 5px 18px rgba(0,0,0,.25);
+}
+
+.name{
+    margin-top:18px;
+    font-size:26px;
+    font-weight:bold;
+    color:#1565C0;
+}
+
+.section{
+    margin-top:35px;
+    padding-top:20px;
+    border-top:2px solid #bfc7d1;
+}
+
+.section h2{
+    margin:0 0 10px;
+    color:#1565C0;
+}
+
+.links a{
+
+    display:block;
+
+    margin:8px 0;
+
+    color:#1565C0;
+
+    text-decoration:none;
+
+    font-size:18px;
+}
+
+.links a:hover{
+
+    text-decoration:underline;
+
+}
+
+.buttons{
+
+    margin-top:35px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.btn{
+
+    background:#1976D2;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:14px 28px;
+
+    border-radius:30px;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#0D47A1;
+
+    transform:translateY(-3px);
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="row">
+
+<div class="profile">
+
+<img src="images/guru1.jpg">
+
+<div class="name">
+Nama Guru 1
+</div>
+
+</div>
+
+<div class="profile">
+
+<img src="images/guru2.jpg">
+
+<div class="name">
+Nama Guru 2
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>📍 Domisili</h2>
+
+Kabupaten Semarang, Jawa Tengah
+
+</div>
+
+<div class="section links">
+
+<a href="#">📄 Profil Lengkap</a>
+
+<a href="#">🎓 Riwayat Pendidikan</a>
+
+</div>
+
+<div class="buttons">
+
+<a class="btn" href="#">🏠 Beranda</a>
+
+<a class="btn" href="#">📚 Materi</a>
+
+<a class="btn" href="#">📞 Kontak</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
