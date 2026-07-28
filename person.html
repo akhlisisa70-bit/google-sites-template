@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Profil Anggota Keluarga</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+
+    /* sementara memakai warna hijau,
+       nanti diganti gambar background floral */
+    background:linear-gradient(135deg,#dff5d8,#f6fff2);
+
+}
+
+/*==============================*/
+
+.container{
+
+    width:900px;
+    max-width:95%;
+    margin:30px auto;
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0px 0px 15px rgba(0,0,0,.2);
+
+}
+
+/*==============================*/
+
+.header{
+
+    background:#4CAF50;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+}
+
+.header h1{
+
+    margin:0;
+
+}
+
+/*==============================*/
+
+.profil{
+
+    display:flex;
+
+    justify-content:space-around;
+
+    padding:25px;
+
+    flex-wrap:wrap;
+
+}
+
+/*==============================*/
+
+.foto{
+
+    width:220px;
+
+    text-align:center;
+
+}
+
+.foto img{
+
+    width:180px;
+
+    height:220px;
+
+    object-fit:cover;
+
+    border-radius:10px;
+
+    border:5px solid #4CAF50;
+
+}
+
+/*==============================*/
+
+.data{
+
+    width:100%;
+
+    padding:25px;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+td{
+
+    padding:8px;
+
+    border-bottom:1px solid #dddddd;
+
+}
+
+/*==============================*/
+
+.judul{
+
+    background:#E8F5E9;
+
+    padding:10px;
+
+    color:#2E7D32;
+
+    font-weight:bold;
+
+    margin-top:20px;
+
+}
+
+/*==============================*/
+
+.isi{
+
+    padding:15px;
+
+    line-height:1.6;
+
+}
+
+/*==============================*/
+
+.button{
+
+display:inline-block;
+
+padding:10px 20px;
+
+background:#4CAF50;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:8px;
+
+margin-top:10px;
+
+}
+
+.button:hover{
+
+background:#2E7D32;
+
+}
+
+/*==============================*/
+
+.footer{
+
+background:#4CAF50;
+
+color:white;
+
+text-align:center;
+
+padding:15px;
+
+margin-top:20px;
+
+}
+
+/*==============================*/
+
+@media(max-width:700px){
+
+.profil{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+
+<h1>🌳 SILSILAH KELUARGA BESAR</h1>
+
+<p>Profil Anggota Keluarga</p>
+
+</div>
+
+<div class="profil">
+
+<div class="foto">
+
+<img src="images/person1.jpg">
+
+<h3>Nama Anggota</h3>
+
+</div>
+
+<div class="foto">
+
+<img src="images/person2.jpg">
+
+<h3>Nama Pasangan</h3>
+
+</div>
+
+</div>
+
+<div class="data">
+
+<table>
+
+<tr>
+<td width="180"><b>Nama Lengkap</b></td>
+<td>: Ahmad Akhlis</td>
+</tr>
+
+<tr>
+<td><b>Nama Panggilan</b></td>
+<td>: Ahmad</td>
+</tr>
+
+<tr>
+<td><b>Tempat/Tanggal Lahir</b></td>
+<td>: Semarang, 10 Januari 1980</td>
+</tr>
+
+<tr>
+<td><b>Ayah</b></td>
+<td>: Hasan</td>
+</tr>
+
+<tr>
+<td><b>Ibu</b></td>
+<td>: Fatimah</td>
+</tr>
+
+<tr>
+<td><b>Pasangan</b></td>
+<td>: Siti Aminah</td>
+</tr>
+
+<tr>
+<td><b>Pekerjaan</b></td>
+<td>: Guru</td>
+</tr>
+
+</table>
+
+<div class="judul">📖 Biografi</div>
+
+<div class="isi">
+
+Tuliskan riwayat hidup anggota keluarga di sini.
+
+</div>
+
+<div class="judul">👨‍👩‍👧 Anak-anak</div>
+
+<div class="isi">
+
+• Ali<br>
+• Aisyah<br>
+• Rina
+
+</div>
+
+<div class="judul">📸 Album Foto</div>
+
+<div class="isi">
+
+<a href="#" class="button">
+
+Lihat Album Google Photos
+
+</a>
+
+</div>
+
+</div>
+
+<div class="footer">
+
+Website Silsilah Keluarga © 2026
+
+</div>
+
+</div>
+
+</body>
+
+</html>
